@@ -1,12 +1,17 @@
-/*  your css code here. If applicable */
-nav{
-background-color: #D3D3D3;
-padding: 10px;
+/* your css code here */
+.container {
+  background-color: #D3D3D3;
+  padding: 10px;
 }
 
-ul{
-display: inline;
-margin-right: 1rem;
-list-style: no-bullet;
-
+ul {
+  display: flex;        /* instead of inline */
+  list-style: none;     /* correct way to remove bullets */
+  padding: 0;           /* reset default padding */
+  margin: 0;            /* reset default margin */
 }
+
+li {
+  margin-right: 1rem;   /* apply margin to list items */
+}
+
